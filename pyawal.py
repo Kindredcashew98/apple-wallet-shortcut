@@ -48,7 +48,7 @@ def gen_apple_wallet(barcode):
 
     cardInfo.addBackField('name',content["name"],'Name: ')
     cardInfo.addBackField('description',content["description"],'Description: ')
-    cardInfo.addBackField('credit','https://wallet.shane.app','Created By: ')
+    cardInfo.addBackField('credit','https://joneshomehardware.co.uk','Website ')
 
     organizationName = content["name"]
     passTypeIdentifier = os.environ.get('PASS_TYPE_IDENT')
